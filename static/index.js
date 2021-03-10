@@ -139,6 +139,7 @@ function eachDep(value, index, array) {
     let spanBadge = document.createElement("span");
     spanBadge.setAttribute("class", "badge badge-primary badge-pill badge-warning");
     spanBadge.innerHTML = dep.jobs.length
+    spanBadge.setAttribute("style","margin-left: 5px;");
     aClass.appendChild(spanBadge)
 
 
