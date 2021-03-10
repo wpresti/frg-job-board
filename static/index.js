@@ -130,7 +130,7 @@ function eachDep(value, index, array) {
     //console.log("2")
     aClass.setAttribute("aria-controls", dep.id) // may need to change later
     //console.log("1")
-    aClass.innerHTML = dep.name + " -";
+    aClass.innerHTML = dep.name + "  ";
     aClass.setAttribute("onclick", "scrollToTop()");
     aClass.setAttribute("style", "font-size : 18px; color: #000000;");
 
